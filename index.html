@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tejan Vedivelli Portfolio</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* General Section Styling */
+      .section {
+        padding: 50px 20px;
+        background-color: #f9f9f9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      /* Content Styling */
+      .content {
+        max-width: 600px;
+      }
+
+      .content .subtitle {
+        font-size: 1.5rem;
+        color: #555;
+      }
+
+      .content .title {
+        font-size: 2.5rem;
+        color: #333;
+      }
+
+      .content .description {
+        font-size: 1.2rem;
+        color: #666;
+      }
+
+      /* Skills Section Styling */
+      #skills {
+        background-color: #eef2f7;
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      #skills h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #333;
+      }
+
+      #skills ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #skills ul li {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      /* Experience Section Styling */
+      #experience {
+        background-color: #ffffff;
+        padding: 50px 20px;
+      }
+
+      #experience h2 {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        color: #333;
+      }
+
+      #experience ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      #experience ul li {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        color: #555;
+      }
+
+      /* Contact Section Styling */
+      #contact {
+        background-color: #eef2f7;
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      #contact h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      #contact p {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      #contact a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Tejan</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="assets/Tejan Vedivelli.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+<section id="about" class="section">
+  <div class="section__container">
+    <div class="content">
+      <p class="subtitle">HELLO</p>
+      <h1 class="title">
+        I'm <span>Tejan Vedivelli<br />a</span> Full Stack Java Developer
+      </h1>
+      <p class="description">
+        With over 8 years of experience as a Java Full Stack Developer, 
+        I have a proven track record of designing and delivering scalable solutions across diverse domains like finance,
+        compliance, and software development. 
+      </p>
+      <div class="social-links">
+        <a href="mailto:vedivellitejan@gmail.com" target="_blank">
+          <img src="assets/gmail-logo.png" alt="Gmail" style="width: 30px; height: 30px; margin-right: 10px;">
+        </a>
+        <a href="https://medium.com/@vedivellitejan" target="_blank">
+          <img src="assets/medium-logo.png" alt="Medium" style="width: 30px; height: 30px; margin-right: 10px;">
+        </a>
+        <a href="https://www.linkedin.com/in/tejan-v-1b33b0309" target="_blank">
+          <img src="assets/Linkedin-logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+        </a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="assets/Profile.jpeg" alt="profile" />
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div>
+      <strong>Programming Languages:</strong>
+      <p>Java, JavaScript, TypeScript, SQL, Python</p>
+    </div>
+    <div>
+      <strong>Frontend Development:</strong>
+      <p>React, Redux, Material-UI, Bootstrap, HTML5, CSS3</p>
+    </div>
+    <div>
+      <strong>Backend Development:</strong>
+      <p>Java Spring Boot, Microservices, Hibernate, JPA</p>
+    </div>
+    <div>
+      <strong>Messaging Queues:</strong>
+      <p>Apache Kafka, RabbitMQ, ActiveMQ</p>
+    </div>
+    <div>
+      <strong>Database Management:</strong>
+      <p>PostgreSQL, MySQL, Oracle DB, MongoDB</p>
+    </div>
+    <div>
+      <strong>Cloud Platforms:</strong>
+      <p>Google Cloud Platform (GCP), AWS, Azure</p>
+    </div>
+    <div>
+      <strong>DevOps and CI/CD:</strong>
+      <p>Jenkins, GitLab, Docker, Kubernetes</p>
+    </div>
+    <div>
+      <strong>Version Control:</strong>
+      <p>Git, GitHub</p>
+    </div>
+    <div>
+      <strong>Testing Frameworks:</strong>
+      <p>JUnit, Mockito, Selenium, Cucumber</p>
+    </div>
+    <div>
+      <strong>Logging and Monitoring:</strong>
+      <p>Log4j, Splunk</p>
+    </div>
+    <div>
+      <strong>Web Services:</strong>
+      <p>RESTful APIs, API Design and Development</p>
+    </div>
+    <div>
+      <strong>Agile Methodologies:</strong>
+      <p>Sprint planning, Daily stand-ups, Retrospectives</p>
+    </div>
+    <div>
+      <strong>Development Practices:</strong>
+      <p>Test-Driven Development (TDD), Continuous Integration and Delivery</p>
+    </div>
+    <div>
+      <strong>Performance Optimization:</strong>
+      <p>Lazy loading, Code-splitting, Query optimization</p>
+    </div>
+    <div>
+      <strong>Soft Skills:</strong>
+      <p>Team Collaboration, Technical Analysis, Problem-Solving</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Adjustment to Ensure Proper Scroll -->
+<style>
+  section {
+    scroll-margin-top: 100px; /* Adjusts the margin to make the heading visible when scrolling */
+  }
+
+  body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  section { 
+    transition: opacity 0.5s ease;
+    opacity: 1;
+  }
+
+  section.active {
+    opacity: 1;
+  }
+
+  #about {
+    opacity: 1 !important; /* Always keep About section fully visible */
+  }
+
+  .navbar a {
+    cursor: pointer;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Compress inside margin */
+    gap: 20px; /* Slightly increase gap for balanced spacing */
+    margin: 20px auto;
+    max-width: 1200px; /* Restrict overall width to keep inside margin */
+  }
+
+  .skills-grid div {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+
+  #skills h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.body.classList.add("opening");
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        document.querySelectorAll('section').forEach(section => {
+          section.classList.remove('active');
+          section.style.opacity = '1'; // Reset all sections to visible
+        });
+
+        if (targetSection.id !== "about") {
+          document.querySelectorAll('section:not(#about)').forEach(section => {
+            if (section !== targetSection) {
+              section.style.opacity = '0.3'; // Dim non-active sections
+            }
+          });
+        }
+
+        targetSection.classList.add('active');
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  });
+</script>
+
+
+
+
+
+<!-- Experience Section -->
+<section id="experience">
+<h2>Experience</h2>
+<ul>
+<li><strong>Blue Cross Blue Shield Association (July 2023 - Present):</strong> Worked on VitalMetrics, a healthcare data analytics platform for actionable insights into member health trends and claims processing.</li>
+<li><strong>General Motors (Aug 2021 - June 2023):</strong> Contributed to DriveOps, a vehicle operation management system centralizing fleet tracking and operational analytics.</li>
+<li><strong>Legacy Health (Jan 2020 - July 2021):</strong> Developed CareSphere, a hospital management system for patient registration and medical record tracking.</li>
+<li><strong>Greater Texas Credit Union (Aug 2018 - Nov 2019):</strong> Built FinVision, a financial reporting and analytics system for loan application tracking and compliance metrics.</li>
+<li><strong>Software Intern | Ecom Express Limited (June 2016 - July 2018):</strong> Assisted in developing TestSphere, a QA automation framework for backend and frontend testing.</li>
+</ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:vedivellitejan@gmail.com">vedivellitejan@gmail.com</a></p>
+  <p>Phone: <a href="tel:+13127158201">+1 (312) 715-8201</a></p>
+</section>
+</body>
+</html>
